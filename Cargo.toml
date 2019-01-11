@@ -4,5 +4,13 @@ version = "0.1.0"
 authors = ["Admin <kjbrown5@ncsu.edu>"]
 edition = "2018"
 
+[lib]
+name = "image_lib"
+path = "src/lib.rs"
+
+[[bin]]
+name = "image_bin"
+path = "src/main.rs"
+
 [dependencies]
 image = "0.20.0"
