@@ -1,11 +1,11 @@
-extern crate image_lib;
+extern crate collage_formatter_lib;
 
 use std::path::Path;
 use std::fs;
 
 use image::{ DynamicImage, RgbaImage };
 
-use image_lib::collage_builder::*;
+use collage_formatter_lib::collage_builder::*;
 
 fn main() {
     let mut tile_images: Vec<DynamicImage> = Vec::new();

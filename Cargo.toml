@@ -1,15 +1,15 @@
 [package]
-name = "image"
+name = "collage_formatter"
 version = "0.1.0"
 authors = ["Admin <kjbrown5@ncsu.edu>"]
 edition = "2018"
 
 [lib]
-name = "image_lib"
+name = "collage_formatter_lib"
 path = "src/lib.rs"
 
 [[bin]]
-name = "image_bin"
+name = "collage_formatter_bin"
 path = "src/main.rs"
 
 [dependencies]
